@@ -134,7 +134,7 @@ erDiagram
         bigint curso_id FK
         date fecha_matricula
         varchar(20) estado
-        decimal(4,2) nota_final
+        decimal nota_final
         timestamp fecha_creacion
         varchar(50) usuario_creacion
         timestamp fecha_actualizacion
