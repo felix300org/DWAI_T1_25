@@ -21,7 +21,7 @@ import java.util.Set;
 @lombok.Builder
 public class ProfesorEntity extends PersonaEntity {
     
-    @Column(name = "codigo_profesor", nullable = false, unique = true, length = 20)
+    @Column(name = "codigo_empleado", nullable = false, unique = true, length = 20)
     private String codigoProfesor;
     
     @Column(name = "especialidad", nullable = false, length = 100)
