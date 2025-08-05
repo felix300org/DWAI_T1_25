@@ -1,7 +1,7 @@
 # 🎓 Sistema de Gestión Académica
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Java-17-007396?logo=java&logoColor=white" alt="Java 17">
+  <img src="https://img.shields.io/badge/Java-21-007396?logo=java&logoColor=white" alt="Java 17">
   <img src="https://img.shields.io/badge/Spring%20Boot-3.1.0-6DB33F?logo=springboot&logoColor=white" alt="Spring Boot 3.1.0">
   <img src="https://img.shields.io/badge/MySQL-8.0-4479A1?logo=mysql&logoColor=white" alt="MySQL 8.0">
   <img src="https://img.shields.io/badge/JPA-Hibernate-59666C?logo=hibernate&logoColor=white" alt="JPA Hibernate">
