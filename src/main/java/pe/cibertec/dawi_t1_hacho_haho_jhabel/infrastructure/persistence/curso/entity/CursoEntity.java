@@ -43,5 +43,9 @@ public class CursoEntity extends Auditoria<String> {
     @com.fasterxml.jackson.annotation.JsonIgnore
     private Set<pe.cibertec.dawi_t1_hacho_haho_jhabel.infrastructure.persistence.matricula.entity.MatriculaEntity> matriculas;
     
-
+    // Relación con el profesor que imparte el curso
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "profesor_id")
+    @com.fasterxml.jackson.annotation.JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
+    private pe.cibertec.dawi_t1_hacho_haho_jhabel.infrastructure.persistence.persona.entity.ProfesorEntity profesor;
 }
